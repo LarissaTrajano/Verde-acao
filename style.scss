@@ -1,0 +1,65 @@
+*{
+    margin: 0; //Remove o espaçamento externo padrão dos navegadores.
+    padding: 0; //Remove o preenchimento padrão
+    box-sizing: border-box; //Inclui passing e borda no calculo do tamanho.
+}
+header {
+
+    background-color:#66bb6a;
+    height: 20vh;
+    color: #ffffff;
+    //padding-top: 30px;
+    //padding-left: 50px;
+    //padding-right: 30px;
+    //padding-bottom: 70px;
+    //margin: 30px;
+    //margin-top: 20px; //top - em cima
+    //margin-left: 30px; //left - esquerda
+    //margin-right: 50px; //right - direita
+    //margin-bottom: 20px; //botton - embaixo
+}
+    h2 {
+        display: block; //Ocupa toda a linha
+        display: inline; //Ocupa somente o tamanho necessário
+        display: inline-block; // Deixa na mesma linha,e permite o controle de largura e altura
+        width: 40%;
+        padding-left: 160px;
+        margin-top: 40px;
+        font-family: "Sansita Swashed", system-ui;
+    }
+
+    /* O nav também é block por padrão, então muda o comportamento */
+
+    nav {
+        display: block; //Ocupa toda a linha
+        display: inline; //Ocupa somente o tamanho necessário
+        width: 40%; //Com o inline, ele não aceita tamanhos.
+        display: inline-block; // Deixa namesma linha,e permite o controle de largura e altura
+        text-align: end;
+
+        a {
+            margin-left: 40px; // espaço entre os links
+            color: #ffffff;
+            text-decoration: none; //Tira a estilização padrão da tag A
+        }
+    }
+.background{
+ background-image: url("./assets/background.png");
+ height: 80vh;
+ background-repeat: no-repeat;
+color: #ffffff;
+text-align: center;
+background-position: center;
+background-size: cover;
+padding-top: 200px;
+h1{
+    font-family: "Sansita Swashed", system-ui;
+}
+p{
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 300px;
+width: 50%;
+}
+
+}

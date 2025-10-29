@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #66bb6a;
+  height: 20vh;
+  color: #ffffff;
+}
+
+h2 {
+  display: block;
+  display: inline;
+  display: inline-block;
+  width: 40%;
+  padding-left: 160px;
+  margin-top: 40px;
+  font-family: "Sansita Swashed", system-ui;
+}
+
+/* O nav também é block por padrão, então muda o comportamento */
+nav {
+  display: block;
+  display: inline;
+  width: 40%;
+  display: inline-block;
+  text-align: end;
+}
+nav a {
+  margin-left: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background {
+  background-image: url("./assets/background.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+}
+.background h1 {
+  font-family: "Sansita Swashed", system-ui;
+}
+.background p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
